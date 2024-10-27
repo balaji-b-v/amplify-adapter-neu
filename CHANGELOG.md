@@ -1,13 +1,13 @@
-# amplify-adapter
+# amplify-adapter-neu
 
-## 0.1.2
+## 1.0.0
 
-### Patch Changes
+### Initial Files
 
-- 99db5b7: This version will fix issue: #6
+- 
 
-## 0.1.1
+## 1.0.1
 
-### Patch Changes
+### Name updates
 
-- 478d489: Removed console.log from adapt function
+- 
