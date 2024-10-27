@@ -1,4 +1,4 @@
-# Amplify Adapter Contributing Guide
+# Amplify Adapter Neu Contributing Guide
 
 ## Preparing
 

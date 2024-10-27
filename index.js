@@ -19,7 +19,7 @@ export default function (opts = {}) {
 		copyNpmrc = true,
 	} = opts;
 
-	const buildername = 'amplify-adapter';
+	const buildername = 'amplify-adapter-neu';
 
 	return {
 		name: buildername,

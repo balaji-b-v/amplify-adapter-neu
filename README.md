@@ -1,4 +1,4 @@
-# amplify-adapter
+# amplify-adapter-neu
 
 [Adapter](https://kit.svelte.dev/docs/adapters) for SvelteKit apps to Amplify Host CI/CD.
 
@@ -13,14 +13,14 @@ Limitations:
 - Install with npm or yarn:
 
 ```bash
-npm install --save-dev amplify-adapter
+npm install --save-dev amplify-adapter-neu
 ```
 
 - Add the adapter to your `svelte.config.js`:
 
 ```js
 // svelte.config.js
-import adapter from 'amplify-adapter';
+import adapter from 'amplify-adapter-neu';
 ```
 
 ## Amplify CI/CD
