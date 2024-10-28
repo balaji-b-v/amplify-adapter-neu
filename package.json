@@ -1,6 +1,6 @@
 {
 	"name": "amplify-adapter-neu",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Customized Neu Adapter for SvelteKit v1/v2 + Amplify SSR CI/CD",
 	"license": "MIT",
 	"type": "module",

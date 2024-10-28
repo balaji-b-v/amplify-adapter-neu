@@ -109,7 +109,7 @@ export default function (opts = {}) {
 				`${out}/deploy-manifest.json`,
 				JSON.stringify({
 					version: 1,
-					framework: { name: 'SvelteKit', version: '1.1.2' },
+					framework: { name: 'SvelteKit', version: '2.7.3' },
 					routes: [
 						{
 							path: '/plugins/builder/*.*',
