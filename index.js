@@ -34,9 +34,6 @@ export default function (opts = {}) {
 
 			builder.log.minor('Copying assets');
 			builder.writeClient(`${out}/static${builder.config.kit.paths.base}`);
-			builder.writeClient(`${out}/static/plugins/builder`);
-			builder.writeClient(`${out}/static/web-components/ssr`);
-			builder.writeClient(`${out}/static/web-components/client`);
 			builder.writePrerendered(`${computePath}/prerendered${builder.config.kit.paths.base}`);
 
 			if (precompress) {
