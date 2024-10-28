@@ -115,21 +115,21 @@ export default function (opts = {}) {
 					framework: { name: 'SvelteKit', version: '1.1.2' },
 					routes: [
 						{
-							path: `/plugins/builder/*`,
+							path: '/plugins/builder/*.*',
 							target: {
 							  kind: 'Static',
 							  "cacheControl": "public, max-age=2"
 							},
 						  },
 						{
-							path: `/web-components/ssr/*`,
+							path: '/web-components/ssr/*.*',
 							target: {
 							  kind: 'Static',
 							  "cacheControl": "public, max-age=2"
 							},
 						  },
 						{
-							path: `/web-components/client/*`,
+							path: '/web-components/client/*.*',
 							target: {
 							  kind: 'Static',
 							  "cacheControl": "public, max-age=2"
